@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth #for logging purpose
-          image: vijayvaddem/auth
+          image: us.gcr.io/ticketing-dev-288710/auth
 ---
 apiVersion: v1
 kind: Service
